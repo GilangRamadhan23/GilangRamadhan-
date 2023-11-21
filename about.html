@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        #about {
+            background-color: #a19b9b;
+            padding: 50px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        #about h1 {
+            color: #333;
+            font-size: 2.5em;
+        }
+
+        #about p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        #about .quote-container {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #about .quote {
+            font-style: italic;
+            font-size: 1.5em;
+            color: #555;
+        }
+
+        #about .quote-author {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #777;
+        }
+
+        #about .social-links {
+            margin-top: 30px;
+        }
+
+        #about .social-links h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        #about .social-links ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #about .social-links li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        #about .social-links a {
+            text-decoration: none;
+            color: #4285f4; 
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+            font-size: 1.5em;
+        }
+
+        #about .social-links a:hover {
+            color: #0d0d0e; 
+        }
+
+        #about .about-image {
+            max-width: 30%;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #about .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        #about .back-button:hover {
+            background-color: #0d0d0e;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">           
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="about">
+        <h1 class="heading">About Us</h1>
+        <p>Welcome to our Ramen Wonderland!</p>
+        <p>We, at Ramen Gilang, are not just a restaurant; we are storytellers, crafting narratives with every bowl of ramen. Our chefs are dedicated to the art of ramen-making, blending traditional Japanese techniques with modern creativity.</p>
+        <p>What sets us apart:</p>
+        <ul>
+            <li><strong>Passionate Chefs:</strong> Our chefs are true ramen enthusiasts, bringing passion and expertise to every dish.</li>
+            <li><strong>Seasonal Specials:</strong> Experience the changing seasons through our unique seasonal ramen offerings.</li>
+            <li><strong>Community Connection:</strong> We believe in building a ramen-loving community. Join our events and be part of the Ramen Gilang family!</li>
+            <li><strong>Artisan Ingredients:</strong> We source the finest, locally-sourced ingredients to create a symphony of flavors in every bowl.</li>
+        </ul>
+        <p>Embark on a culinary adventure with us, where each visit is a journey into the heart of ramen culture. Our commitment is to provide you with an exceptional dining experience that leaves you craving for more.</p>
+        <img src="img/delivery-img.png" alt="Ramen Gilang Interior" class="about-image">
+        <div class="quote-container">
+            <blockquote class="quote">"Ramen is not just food; it's an experience, a moment of pure delight."</blockquote>
+            <p class="quote-author">- Chef Gilang Ramadhan, Ramen Gilang</p>
+        </div>
+        <div class="social-links">
+            <h2>Connect with Us</h2>
+            <ul>
+                <li><a href="https://web.facebook.com/profile.php?id=100010572672092&locale=id_ID" target="_blank">Facebook</a></li>
+                <li><a href="https://wa.me/62895393389876" target="_blank">Whatsapp</a></li>
+                <li><a href="https://www.instagram.com/gll.stoneheart?utm_source=qr" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
